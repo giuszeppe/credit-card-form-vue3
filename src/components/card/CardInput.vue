@@ -130,7 +130,4 @@
         justify-content: center;
         gap: 8px;
     }
-    .cvv-wrapper:focus-within{
-        color:red;
-    }
 </style>
