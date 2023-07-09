@@ -2,7 +2,7 @@
   import { reactive } from 'vue';
 import CardDisplay from './components/card/CardDisplay.vue'
   import CardInput from './components/card/CardInput.vue'
-  import {Card} from './Card'
+  import {type Card} from './Card'
 
   const props: Card = reactive({
       card_number: '000000000000000000',

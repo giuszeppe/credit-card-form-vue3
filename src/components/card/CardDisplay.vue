@@ -9,7 +9,7 @@
     //Function import
     import {Mask} from 'maska'
     import { computed } from 'vue'
-    import {Card} from '../../Card'
+    import { type Card} from '../../Card'
 
     const props = defineProps<Card>()
     const card_number_masked = computed<string>(() => {

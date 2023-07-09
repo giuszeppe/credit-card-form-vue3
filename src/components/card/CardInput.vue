@@ -2,7 +2,7 @@
     import Input from '../common/Input.vue';
     import WrapperInput from '../common/WrapperInput.vue';
     import Label from '../common/Label.vue';
-    import { Card } from '../../Card';
+    import { type Card } from '../../Card';
     import {onMounted, ref} from 'vue'
     const props = defineProps<Card>()
     const emit = defineEmits([
